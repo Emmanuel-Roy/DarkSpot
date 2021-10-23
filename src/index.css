@@ -1,0 +1,9 @@
+@import "../node_modules/nes.css/css/nes.css";
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, pre, code, kbd, samp {
+    font-family: "Press Start 2P";
+}
