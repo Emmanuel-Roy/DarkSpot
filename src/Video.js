@@ -43,23 +43,21 @@ function Video() {
   
     return (
       <div class="container mx-auto flex items-center justify-center">
-            <video class="mr-20"
-              ref={videoRef}
-              style={{ transform: "scale(-1, 1)" }}
-              width="300"
-              height="150"
-            />
+        <video class="mr-20"
+          ref={videoRef}
+          style={{transform: "scale(-1, 1)"}}
+          width="300"
+          height="150"
+        />
+        <div>
+        {result.length > 0 && (
             <div>
-            {result.length > 0 && (
-                <div>
-                    <Chart data={result[0]} />
-                </div>
-            )}
+                <Chart data={result[0]} />
             </div>
-            
-            
-          
+        )}
+        </div>
       </div>
+      
     );
   }
   

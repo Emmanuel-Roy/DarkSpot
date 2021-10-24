@@ -12,6 +12,10 @@ const SideBar = () => {
         <button class="nes-btn font-bold h-12 w-28 bg-red-500 hover:bg-black hover:text-white transition-all duration-300 ease-linear
     shadow-lg">About</button>
       </Link>
+      <a href="https://github.com/Emmanuel-Roy/DarkSpot" target="_blank">
+      <button class="nes-btn font-bold h-12 w-28 bg-red-500 hover:bg-black hover:text-white transition-all duration-300 ease-linear
+    shadow-lg">GitHub</button>
+      </a>
     </div>
   );
 };
