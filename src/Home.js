@@ -11,7 +11,10 @@ export const Home = () => {
             <SideBar/>
             <Video/>
             </div>
+        
+
         </div>
+        
     )
 }
 
