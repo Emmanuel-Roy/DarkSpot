@@ -41,9 +41,9 @@ To Visit App:
 
 ## How we did it 
 
-This was a 36 hour long project built during HackTAMS at the Texas Academy of Math and Science. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features.  
+This was a 36 hour long project built during HackTAMS at the Texas Academy of Math and Science. Project goals included using technologies learned up until this point and familiarizing ourselves with documentation for new features.  
 
-Originally we wanted to build an application that allowed users to classify whether a mole was melanoma or not. we started this process by using the `create-react-app` boilerplate, then adding `react-router-dom`, `tailwindcss`, and `NES.CSS`.  
+Originally we wanted to build an application that allowed users to classify whether a mole was melanoma or not. We started this process by using the `create-react-app` boilerplate, then adding `react-router-dom`, `tailwindcss`, and `NES.CSS`.  
 
 One of the main challenges we ran into was the actual image classification and the video rendering. This lead us to spend a few hours on html videos, less common react depedency components, and overall Tensorflow-React collaboration. 
 
