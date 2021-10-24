@@ -1,6 +1,5 @@
 ## DarkSpot
 
-#### Example:
 
 DarkSpot
 
